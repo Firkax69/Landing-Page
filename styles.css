@@ -1,7 +1,9 @@
 * {
     margin: 0;
     padding: 0;
-    font-family: 'Times New Roman', Times, serif
+    font-family: 'Times New Roman', Times, serif;
+    box-sizing: border-box;
+    border: 1px solid red;   /* FOR DEBUGGING */
 }
 
 
@@ -81,4 +83,42 @@ button {
     padding: 6px 12px;
     width: 100px;
     text-align: center;
+}
+
+
+/* BODY STYLES */
+
+.body {
+    text-align: center;
+    display: flex;
+    justify-content: center;
+    gap: 40px;
+    border: 1px solid red;   /* FOR DEBUGGING */
+    flex-wrap: wrap;
+}
+
+
+.body-images-container {
+    width: 180px;
+    height: 220px;
+}
+
+.images {
+    height: 180px;
+    width: 180px;
+    border: 4px solid #3882f6;
+    border-radius: 16px;
+}
+
+.body-text {
+    margin: 20px;
+    text-align: center;
+    font-size: 36px;
+    font-weight: 900;
+    color: #1f2937;
+    border: 1px solid red;   /* FOR DEBUGGING */
+}
+
+.body-images-text {
+    font-size: 18px;
 }
