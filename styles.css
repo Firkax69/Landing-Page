@@ -92,15 +92,16 @@ button {
     text-align: center;
     display: flex;
     justify-content: center;
-    gap: 40px;
+    gap: 80px;
     border: 1px solid red;   /* FOR DEBUGGING */
     flex-wrap: wrap;
+    margin-bottom: 80px;
 }
 
 
 .body-images-container {
     width: 180px;
-    height: 220px;
+    height: auto;
 }
 
 .images {
