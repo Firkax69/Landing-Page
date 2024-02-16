@@ -1,11 +1,31 @@
 * {
     margin: 0;
     padding: 0;
-    font-family: Georgia, 'Times New Roman', Times, serif
+    font-family: 'Times New Roman', Times, serif
 }
 
 .header {
     background-color: #1f2937;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    padding: 15px 70px;
+}
+
+.logo {
     color: #f9faf8;
     font-size: 24px;
 }
+
+a {
+    text-decoration: none;
+    color: #e5e7eb;
+    font-size: 18px;
+}
+
+ul {
+    list-style-type: none;
+    display: flex;
+    gap: 35px;
+}
+
