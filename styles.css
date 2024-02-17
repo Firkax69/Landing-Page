@@ -23,8 +23,8 @@
 
 a {
     text-decoration: none;
-    color: #e5e7eb;
     font-size: 18px;
+    color: #e5e7eb;
 }
 
 ul {
@@ -167,7 +167,7 @@ button {
 .contacts {
     background-color: #3882f6;
     color: #f9faf8;
-    margin: 40px 70px;
+    margin: 70px 70px;
     padding: 60px 130px;
     font-size: 18px;
     display: flex;
@@ -183,4 +183,16 @@ button {
 
 .contacts-text {
     color: #e5e7eb;
+}
+
+
+/* FOOTER STYLES */
+
+.footer {
+    background-color: #1f2937;
+    color: #e5e7eb;
+    padding-top: 25px;
+    padding-bottom: 25px;
+    text-align: center;
+    font-size: 18px;
 }
