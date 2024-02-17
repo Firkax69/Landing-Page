@@ -79,10 +79,15 @@ button {
     color: white;
     background-color: #3882f6;
     border: none;
-    border-radius: 8px;
-    padding: 6px 12px;
-    width: 100px;
-    text-align: center;
+    border-radius: 12px;
+    padding: 8px 42px;
+    font-weight: 500;
+    font-size: 20px;
+}
+
+.button1 {
+    display: flex;
+    align-self: flex-start;
 }
 
 
@@ -124,6 +129,9 @@ button {
     font-size: 18px;
 }
 
+
+/* QUOTE STYLES */
+
 .quote {
     background-color: #e5e7eb;
     font-size: 36px;
@@ -147,4 +155,32 @@ button {
     color: #3882f6;
     font-family: Georgia, 'Times New Roman', Times, serif;
     font-weight: 500;
+}
+
+
+/* SIGNUP STYLES */
+
+.signup-button {
+    border: 3px solid white;
+}
+
+.contacts {
+    background-color: #3882f6;
+    color: #f9faf8;
+    margin: 40px 70px;
+    padding: 60px 130px;
+    font-size: 18px;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    border-radius: 12px;
+}
+
+.contacts-header {
+    font-weight: 700;
+    font-size: 24px;
+}
+
+.contacts-text {
+    color: #e5e7eb;
 }
