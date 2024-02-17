@@ -3,7 +3,6 @@
     padding: 0;
     font-family: 'Times New Roman', Times, serif;
     box-sizing: border-box;
-    border: 1px solid red;   /* FOR DEBUGGING */
 }
 
 
@@ -53,6 +52,7 @@ ul {
     flex-direction: column;
     justify-content: center;
     gap: 10px;
+
 }
 
 .hero-photo {
@@ -93,9 +93,9 @@ button {
     display: flex;
     justify-content: center;
     gap: 80px;
-    border: 1px solid red;   /* FOR DEBUGGING */
     flex-wrap: wrap;
     margin-bottom: 80px;
+    border: 1px solid red;   /* FOR DEBUGGING */
 }
 
 
@@ -122,4 +122,29 @@ button {
 
 .body-images-text {
     font-size: 18px;
+}
+
+.quote {
+    background-color: #e5e7eb;
+    font-size: 36px;
+    color: #1f2937;
+    font-style: italic;
+    display: flex;
+    flex-direction: column;
+    padding: 120px 200px 90px 200px;
+    gap: 15px;
+}
+
+.quote-name {
+    display: flex;
+    justify-content: right;
+    font-size: 30px;
+    font-style: normal;
+    font-weight: 700;
+}
+
+.corgi {
+    color: #3882f6;
+    font-family: Georgia, 'Times New Roman', Times, serif;
+    font-weight: 500;
 }
